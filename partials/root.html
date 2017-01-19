@@ -1,1 +1,10 @@
 <h1>Welcome to Angular Weather</h1>
+
+<form ng-submit="goToWeather()">
+
+  <input ng-model="zip" type="text" placeholder="Zip Code">
+  <input type="submit" class="btn btn-primary" value="Get Weather">
+
+<!-- <a class="btn btn-primary" href="#/weather/{{zip}}">Get Weather</a> -->
+
+</form>
